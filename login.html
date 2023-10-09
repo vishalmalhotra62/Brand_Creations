@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'
+        integrity='sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=='
+        crossorigin='anonymous' />
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style1.css"> -->
+    <!-- <link rel="stylesheet" href="style1.css"> -->
+
+    <title>Login</title>
+</head>
+
+<body class="bgGrad">
+    <div class="container-fluid position-fixed w-100 px-0  bg_black" style="z-index: 999; top: 0;">
+        <div class="container px-0">
+            <nav class="navbar navbar-expand-lg w-100">
+                <div class="container-fluid pt-2 px-0">
+                    <a class="navbar-brand px-3 px-lg-0" href="index.html">
+                        <img src="media/Logo.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler border-0 px-3 px-lg-0" style="box-shadow: none;" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="media/menu-hamburger.svg" alt="">
+                        <!-- <img src="media/cross-small.svg" alt=""> -->
+                    </button>
+                    <div class="collapse navbar-collapse px-0 px-lg-0 justify-content-center pe-lg-5 position-relative"
+                        id="navbarNav">
+                        <ul class="navbar-nav n1 gap-lg-4 gap-0 px-4 px-lg-0" style="margin-left: auto;">
+                            <li class="nav-item">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase "
+                                    aria-current="page" href="index.html">
+                                    Our service list</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase " href="about.html">About
+                                    Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase " href="contact.html">Contact
+                                    Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase "
+                                    href="FAQ.html">FAQs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  fsm22 px-lg-0 px-4 fs14 text-uppercase d-lg-none d-block" href="login.html">
+                                    Login /Register
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase d-lg-none d-block "
+                                    href="checkout.html">My Cart</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav n2 d-none d-lg-flex gap-2 align-items-lg-center"
+                            style="justify-self:end; margin-left: auto;">
+
+                            <li class="nav-item d-none d-lg-inline-block">
+                                <a class="nav-link fs1 text-uppercase primary_clr fsm22 px-lg-0 px-4" href="login.html">
+                                    <button class="btn1">Login /Register</button>
+                                </a>
+                            </li>
+                            <li class="nav-item d-none d-lg-inline-block position-relative">
+                                <a class="nav-link cart_btn primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase  position-relative"
+                                    href="checkout.html">
+                                    <button class="btn1">view cart</button></a>
+                            </li>
+                            <li class="nav-item fs14 dropdown ">
+                                <a class="nav-link btn1 fsm22 px-lg-0 px-4 active  dropdown-toggle " href="#"
+                                    id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    £
+                                </a>
+                                <ul class="dropdown-menu p_back" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">USA</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">USA</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">USA</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">USA</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="w-100 wrapper overflow-hidden"
+        style="background-image: url('media/BG\ Elements2.png');background-position-y: 80px; background-position-x: center; background-repeat: no-repeat;">
+        <section class="dashboard py-lg-5 pb-0 pt-5 mt-4 mt-lg-5">
+            <div class="container py-lg-5 px-0">
+                <div class=" row justify-content-center gap-lg-5 gap-4">
+                    <div class="col-lg-5 col-md-5 col-sm-12 dash h-100"
+                        style="background-color: #F4F4F4;box-shadow: 0px 10px 26px rgba(36, 73, 168, 0.15);">
+                        <div class="fs48 text-center mb-4">Login Here</div>
+                        <input type="text" name="" placeholder="Email" class="w-100 mb-4">
+                        <input type="password" name="" placeholder="Password" class="w-100 mb-4">
+                        <div class="col-12 fs16 text-start p-0 mb-2">
+                            <div class="d-flex gap-2 align-items-center">
+                                <input id="chck2" type="checkbox">
+                                <div class="h-100 pt-2">
+                                    <label for="chck2" class="mycheckbox"></label>
+                                </div>
+                                <label for="chck2" class="text-start fs16 p-0">
+                                    <a href="" class="text-decoration-none m-0" style="color: #656565">Remember me</a>
+                                </label>
+                            </div>
+                        </div>
+                        <button class="btn1 w-100 fsb14 mb-3" type="button">Login</button>
+                        <div class="fsb16 text-center"><a href="#" class="text-decoration-none"
+                                style="color: #397BFC">Forgot Password?</a></div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12 dash"
+                        style="background-color: #F4F4F4;box-shadow: 0px 10px 26px rgba(36, 73, 168, 0.15);">
+                        <div class="fs48 text-center mb-4">Sign Up</div>
+                        <input type="text" name="" placeholder="Full Name" class="w-100 mb-4">
+                        <input type="email" name="" placeholder="Email" class="w-100 mb-4">
+                        <input type="password" name="" placeholder="Password" class="w-100 mb-4">
+                        <div class="col-12 fs16 text-start p-0 mb-3">
+                            <div class="d-flex gap-2 align-items-center">
+                                <input id="chck" type="checkbox">
+                                <div class="h-100 pt-2">
+                                    <label for="chck" class="mycheckbox"></label>
+                                </div>
+                                <label for="chck" class="text-start text-capitalize" style="word-spacing: 2px">
+                                    By ticking this box, you agree to the <a href="#"
+                                        class="text-decoration-none Core_Burgundy">Terms
+                                        & Conditions</a> & <a href="#"
+                                        class="text-decoration-none Core_Burgundy">Privacy
+                                        Policy</a>
+                                </label>
+                            </div>
+                        </div>
+                        <img src="media/reCAPTCHA.png" class="img-fluid mb-3">
+                        <button class="btn1 w-100 fsb14 mb-3" type="button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer2 px-4 px-lg-0 py-lg-0 ">
+        <div class="row  align-items-center justify-content-center py-lg-5 pt-4">
+            <div
+                class="col-xxl-5 col-xl-6 col-lg-6 col-12 footer_link_box d-flex justify-content-lg-center gap-lg-1 gap- justify-content-between flex-lg-nowrap flex-wrap px-lg-0 px-3">
+                <div class="col-lg-4 col-6 footer_links ">
+                    <h2 class="fs24 my-lg-0 mt-3 mb-2 primary_clr">Services</h2>
+                    <div class="d-flex flex-column gap-lg-3 gap-2 mt-lg-3 mt-4 flex-lg-nowrap flex-wrap ">
+                        <a href="Seo.html" class="text-decoration-none primary_clr fs16">SEO</a>
+                        <a href="PPC.html" class="text-decoration-none primary_clr fs16">PPC</a>
+                        <a href="ORM.html" class="text-decoration-none primary_clr fs16">ORM</a>
+                        <a href="Web Design.html" class="text-decoration-none primary_clr fs16">Web Design & Development</a>
+                        <a href="Social Media.html" class="text-decoration-none primary_clr fs16">Social media</a>
+                        <a href="Email Marketing.html" class="text-decoration-none primary_clr fs16">Email Marketing </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-6 footer_links ">
+                    <h2 class="fs24 my-lg-0 mt-3 mb-2 primary_clr">Useful Links</h2>
+                    <div class="d-flex flex-column gap-lg-3 gap-2 mt-lg-3 mt-4 flex-lg-nowrap flex-wrap ">
+                        <a href="login.html" class="text-decoration-none primary_clr fs16">Login / Sign Up</a>
+                        <a href="FAQ.html" class="text-decoration-none primary_clr fs16">FAQs</a>
+                        <a href="contact.html" class="text-decoration-none primary_clr fs16">Contact Us</a>
+                        <a href="terms.html" class="text-decoration-none primary_clr fs16">Terms And Conditions</a>
+                        <a href="privacy.html" class="text-decoration-none primary_clr fs16">Privacy Policy</a>
+
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-12 footer_links mt-4 mt-lg-0">
+                    <h2 class="fs24 my-lg-0 mt-3 mb-2 primary_clr">Contact Us</h2>
+                    <div class="d-flex flex-lg-column  gap-lg-3 gap-2 mt-4 mt-lg-3 flex-lg-nowrap flex-wrap ">
+                        <a href="mailto:supportcodernerdz.com"
+                            class="text-decoration-none fs16 col-12 primary_clr">Support@devolutions4u.com</a>
+                        <p class="fs16 text-start text-capitalize">
+                            corp name,<br> lagos, nigeria
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 justify-content-center px-0 footer_l pt-lg-5 pt-4 pb-lg-4  d-flex  position-relative"
+                style="left: -0px;">
+                <div class="col-xxl-12 col-xl-6 col-lg-8 col-12 d-block d-flex   align-items-lg-end flex-column">
+                    <div> <img class="logo" src="media/logo.svg" alt=""></div>
+                    <div><img src="media/Mastercard Logo.png" alt="" class="my-3"></div>
+                    <p class="fs-16 text-start" style="color: #9B9B9B;">
+                        © 2023 Brandcreationz.com. All Rights Reserved
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js'
+        integrity='sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=='
+        crossorigin='anonymous'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'
+        integrity='sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=='
+        crossorigin='anonymous'></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
